@@ -1,6 +1,6 @@
 
-# Efficient Software Masking of AES through Instruction Set Extension
-This repository contains the source code of the implementation of the GFMUL instruction extension for RISC-V.
+# Configurable Loop Shuffling via Instruction Set Extensions
+This repository contains the source code of the implementation of the Configurable loop shuffler for RISC-V.
 
 This ReadMe walks through the steps of recreating the [LiteX](https://github.com/enjoy-digital/litex) framework environment, generating extended CV32E40P core, and creating the SoC file as well as the bitstream used for FPGA evaluation. 
 
