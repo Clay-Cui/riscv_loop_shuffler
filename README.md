@@ -49,8 +49,8 @@ git clone https://github.com/pulp-platform/pulp-riscv-gcc
 ```
 Then copy the two files in `riscv-gnu-toolchain` to the correct location.
 ```sh
-cp toolchain/riscv-opc.h riscv-gnu-toolchain/riscv-binutils/include/opcode/riscv-opc.h
-cp toolchain/riscv-opc.c riscv-gnu-toolchain/riscv-binutils/opcodes/riscv-opc.c
+cp toolchain/riscv-opc.h pulp-riscv-gnu-toolchain/riscv-binutils/include/opcode/riscv-opc.h
+cp toolchain/riscv-opc.c pulp-riscv-gnu-toolchain/riscv-binutils/opcodes/riscv-opc.c
 ```
 To target the installation on Newlib:
 ```sh
