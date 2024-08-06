@@ -1422,7 +1422,7 @@ module riscv_id_stage
 
   assign hwloop_valid = instr_valid_i & clear_instr_valid_o & is_hwlp_i;
     //RNG
-  reg [79:0] trnd_seed; 
+  reg [79:0] trng_seed; 
   wire trng_ready;
     MX_5_SARO_1
     #(.BUFFER_SIZE(80))
@@ -1433,7 +1433,7 @@ module riscv_id_stage
     .req(),
     .o(),
     .rng_ready_o(trng_ready),
-    .buffer_out(trnd_seed)
+    .buffer_out(trng_seed)
     );
   //Permutation
 //  logic [63:0] permu_index;
